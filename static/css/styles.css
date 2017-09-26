@@ -297,6 +297,11 @@ h5{
     color: #fff;
     background: url(../img/gianne4-comp3.jpg) no-repeat;
     background-size: cover;
+     /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .revelle-header{
@@ -724,7 +729,11 @@ body{
     margin-bottom: 10px;
     background: url(../img/gianne4-comp3.jpg) no-repeat;
     background-size: cover;
-
+ /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .header-logo img{
